@@ -5,3 +5,7 @@ body {
 .navbar-inverse {
     background-color: #2AC0D8; /* sky blue */
 }
+
+.line {
+    color: white;
+}
