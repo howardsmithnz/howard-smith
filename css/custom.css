@@ -6,6 +6,8 @@ body {
     background-color: #2AC0D8; /* sky blue */
 }
 
-.line {
-    color: white;
+hr {
+    /*color: #f00;*/
+    background-color: white;
+    height: 3px;
 }
