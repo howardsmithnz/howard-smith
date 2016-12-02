@@ -2,12 +2,11 @@ body {
     background-color: #ff6600; /* rescue orange */
 }
 
-.navbar-inverse {
+.navbar {
     background-color: #2AC0D8; /* sky blue */
 }
 
 hr {
-    /*color: #f00;*/
-    background-color: white;
+    border-top-color: white;
     height: 3px;
 }
