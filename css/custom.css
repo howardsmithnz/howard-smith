@@ -6,7 +6,47 @@ body {
     background-color: #2AC0D8; /* sky blue */
 }
 
+.nav-pills {
+    padding-top: 2px;
+}
+
 hr {
     border-top-color: white;
     height: 3px;
+}
+
+#panel1 {
+    background-color: #666666;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#panel2 {
+    background-color: #333333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#panel3 {
+    background-color: #666666;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#panel4 {
+    background-color: #333333;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#panel5 {
+    background-color: #666666;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#panel6 {
+    background-color: #333333;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
