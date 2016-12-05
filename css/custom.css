@@ -54,3 +54,7 @@ hr {
 a {
     color: white;
 }
+
+a:hover {
+    color: grey;
+}
