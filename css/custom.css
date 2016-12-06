@@ -2,17 +2,25 @@ body {
     background-color: #ff6600; /* rescue orange */
 }
 
-.navbar {
-    background-color: #2AC0D8; /* sky blue */
+a {
+    color: white;
 }
 
-.nav-pills {
-    padding-top: 9px;
+a:hover {
+    color: grey;
 }
 
 hr {
     border-top-color: white;
     height: 3px;
+}
+
+.navbar {
+    background-color: #2AC0D8; /* sky blue */
+}
+
+.nav-pills {
+    padding-top: 8px;
 }
 
 #panel1 {
@@ -49,12 +57,4 @@ hr {
     background-color: #333333;
     padding-top: 5px;
     padding-bottom: 5px;
-}
-
-a {
-    color: white;
-}
-
-a:hover {
-    color: grey;
 }
