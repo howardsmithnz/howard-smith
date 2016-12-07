@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Howard Smith</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ -->
+    <!-- Optional theme -->
+   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="./css/jumbotron.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN embed code -->
+    <script src="https://use.fontawesome.com/e1c6e68010.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav nav-pills navbar-right">
+            <li role="presentation"><a href="about.html"><i class="fa fa-user" aria-hidden="true"></i> About</a></li>
+            <li role="presentation"><a href="index.html#projects-link-target"><i class="fa fa-wrench" aria-hidden="true"></i> Projects</a></li>
+            <li role="presentation"><a href="index.html#contact"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h2><i class="fa fa-snowflake-o" aria-hidden="true"></i> SNOcode</h2>
+        <p>A prize winning entry in the SNApp2016 Hackathon hosted at Te Papa Museum in Wellington, NZ.  Using HTML5, jQuery and the CSIRO's Ontoserver API.</p>
+        <p><a class="btn btn-primary btn-lg" href="https://secret-shelf-83891.herokuapp.com/" role="button">Try it &raquo;</a></p>
+        <p>(Optimized for desktop.)</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6" id="panel7">
+          <h3><i class="fa fa-book" aria-hidden="true"></i> The Story</h3>
+          <p>A proof-of-concept of a smart HTML5 data entry form which allows clinicians (Doctors, Nurses, Physiotherapists, etc.) to quickly match diagnosed conditions with the relevant SNOMED CT code. This uses jQuery to do a real-time query to the CSIRO's Ontoserver API.</p>
+          <p>(Optimized for desktop.)</p>
+        </div>
+        <div class="col-md-6" id="panel8">
+          <h3><i class="fa fa-cogs" aria-hidden="true"></i> The Tech</h3>
+          <p>
+            <ul>
+              <li>Node.js runtime</li>
+              <li>Express.js server</li>
+              <li>Handlebars.js templates</li>
+              <li>Bootstrap CSS framework</li>
+              <li>HTML5</li>
+              <li>jQuery</li>
+              <li>CSIRO's Ontoserver API</li>
+              <li>Heroku deployment environment</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- Example row of columns -->
+      <h2 id="contact"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Contact</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h3>
+            <a href="mailto:howardsmithnz@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3>
+            <a href="https://github.com/howardsmithnz"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3>
+            <a href="https://nz.linkedin.com/in/howard-smith-643082103"><i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          </h3>
+        </div>
+      </div>
+
+      <hr>  
+
+      <footer>
+        <p>&copy; 2016 Howard Smith</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>
